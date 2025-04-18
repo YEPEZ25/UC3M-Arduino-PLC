@@ -1,0 +1,199 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "TEL_152412N"
+      (family "ANA")
+      (package "CONV_TEL_152412N")
+      (description "15_Watt_DC/DC_converter,_industrial,_2:1_input,_ultra_compact_design,_encapsulated,_DIP-16_metal_pac")
+      (attribute "PKG_TYPE" "CONV_TEL_152412N")
+      (attribute "MF" "Traco_Power")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "10.7_mm")
+      (attribute "PACKAGE" "NON_STANDARD-5_Traco_Power")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/TEL%2015-2412N/Traco+Power/view-part/?ref=eda")
+      (attribute "STANDARD" "IPC-7351B")
+      (attribute "PARTREV" "November_2,_2022")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/TEL%2015-2412N/Traco+Power/view-part/?ref=snap")
+      (attribute "MP" "TEL_15-2412N")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Traco_Power")
+      (gate
+        (swap 1)
+        (symbol "TEL_152412N")
+        (pin "+VIN" 16 (type IP))
+        (pin "+VOUT" 9 (type OP))
+        (pin "-VIN" 1 (type IP))
+        (pin "-VOUT" 10 (type OP))
+        (pin "NC" 8 (type NC))
+      )
+    )
+    (symbol "TEL_152412N"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -500 300) (pt 500 300) (pt 500 -300) (pt -500 -300) (pt -500 300) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 700.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -700.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "CONV_TEL_152412N"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt 291.73 -350.39) (pt 299.61 -350.39))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 -468.5) (pt -269.69 468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 -468.5) (pt 269.69 -468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 468.5) (pt 269.69 468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 269.69 -468.5) (pt 269.69 468.5))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (circle (pt 291.73 -350.39) (pt 299.61 -350.39))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 -468.5) (pt -269.69 468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 -468.5) (pt 269.69 -468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -269.69 468.5) (pt 269.69 468.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 269.69 -468.5) (pt 269.69 468.5))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -279.53 478.35) (pt 279.53 478.35))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -279.53 478.35) (pt -279.53 -478.35))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 279.53 478.35) (pt 279.53 -478.35))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -279.53 -478.35) (pt 279.53 -478.35))
+        )
+      )
+      (leg 1 (pt 200 -350) (padstack 1))
+      (leg 8 (pt 200 350) (padstack 2))
+      (leg 9 (pt -200 350) (padstack 3))
+      (leg 10 (pt -200 250) (padstack 4))
+      (leg 16 (pt -200 -350) (padstack 5))
+      (padstack 1
+        (hole 29)
+        (plated true)
+        (pad (layer TCOP) (square 49.53))
+        (pad (layer INNER) (square 49.53))
+        (pad (layer BCOP) (square 49.53))
+        (pad (layer TRES) (square 53.46))
+        (pad (layer BRES) (square 53.46))
+      )
+      (padstack 2
+        (hole 29)
+        (plated true)
+        (pad (layer TCOP) (round 49.53))
+        (pad (layer INNER) (round 49.53))
+        (pad (layer BCOP) (round 49.53))
+        (pad (layer TRES) (round 53.46))
+        (pad (layer BRES) (round 53.46))
+      )
+      (padstack 3
+        (hole 29)
+        (plated true)
+        (pad (layer TCOP) (round 49.53))
+        (pad (layer INNER) (round 49.53))
+        (pad (layer BCOP) (round 49.53))
+        (pad (layer TRES) (round 53.46))
+        (pad (layer BRES) (round 53.46))
+      )
+      (padstack 4
+        (hole 29)
+        (plated true)
+        (pad (layer TCOP) (round 49.53))
+        (pad (layer INNER) (round 49.53))
+        (pad (layer BCOP) (round 49.53))
+        (pad (layer TRES) (round 53.46))
+        (pad (layer BRES) (round 53.46))
+      )
+      (padstack 5
+        (hole 29)
+        (plated true)
+        (pad (layer TCOP) (round 49.53))
+        (pad (layer INNER) (round 49.53))
+        (pad (layer BCOP) (round 49.53))
+        (pad (layer TRES) (round 53.46))
+        (pad (layer BRES) (round 53.46))
+      )
+      (model TEL_15-2412N.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
