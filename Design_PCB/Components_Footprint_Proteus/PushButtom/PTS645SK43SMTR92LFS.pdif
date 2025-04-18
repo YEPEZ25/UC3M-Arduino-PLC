@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "PTS645SK43SMTR92LFS"
+      (family "SWI")
+      (package "SW_PTS645SK43SMTR92LFS")
+      (description "Switch_Tactile_N.O._SPST_Round_Button_Gull_Wing_0.05A_12VDC_100000Cycles_2.55N_SMD_T/R")
+      (attribute "PKG_TYPE" "SW_PTS645SK43SMTR92LFS")
+      (attribute "MF" "C&K_Components")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "4.4_mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/PTS645SK43SMTR%2092%20LFS/C%2526K/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "14_Apr_22")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/PTS645SK43SMTR%2092%20LFS/C%2526K/view-part/?ref=snap")
+      (attribute "MP" "PTS645SK43SMTR_92_LFS")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "CnK")
+      (gate
+        (swap 1)
+        (symbol "PTS645SK43SMTR92LFS")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+        (pin "4" 4 (type PS))
+      )
+    )
+    (symbol "PTS645SK43SMTR92LFS"
+      (units THOU)
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 -100.0) (pt -104.0 100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (fill NONE)
+        (circle (pt -13 100) (pt 13 100))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 200.0) (pt 0.0 115.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 -100.0) (pt 0.0 -200.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -200.0 200.0) (pt 200.0 200.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -200.0 -200.0) (pt 200.0 -200.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -300.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 300.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -300.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 300.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "SW_PTS645SK43SMTR92LFS"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -112.2 118.11) (pt 112.2 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 49.21) (pt -118.11 -49.21))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 49.21) (pt 118.11 -49.21))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -112.2 -118.11) (pt 112.2 -118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -228.35 90.55) (pt -220.47 90.55))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 118.11) (pt 118.11 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 118.11) (pt 118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -118.11) (pt -118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 -118.11) (pt -118.11 118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -228.35 90.55) (pt -220.47 90.55))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -196.85 127.95) (pt 196.85 127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 196.85 127.95) (pt 196.85 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 196.85 -127.95) (pt -196.85 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -196.85 -127.95) (pt -196.85 127.95))
+        )
+      )
+      (leg 1 (pt -156.5 88.58) (padstack 1))
+      (leg 2 (pt 156.5 88.58) (padstack 2))
+      (leg 3 (pt -156.5 -88.58) (padstack 3))
+      (leg 4 (pt 156.5 -88.58) (padstack 4))
+      (padstack 1
+        (pad (layer TCOP) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TRES) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TPST) (rectf 51.18 61.02 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TRES) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TPST) (rectf 51.18 61.02 0 0.0 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TRES) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TPST) (rectf 51.18 61.02 0 0.0 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TRES) (rectf 51.18 61.02 0 0.0 0))
+        (pad (layer TPST) (rectf 51.18 61.02 0 0.0 0))
+      )
+    )
+  )
+)

@@ -1,0 +1,186 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "414375650"
+      (family "SWI")
+      (package "SW_414375650")
+      (description "Tactile_Switch_SPST-NO_Top_Actuated_Through_Hole")
+      (attribute "PKG_TYPE" "SW_414375650")
+      (attribute "COMMENT" "4-1437565-0")
+      (attribute "MF" "TE_Connectivity")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "P6")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap")
+      (attribute "MP" "4-1437565-0")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "TE_CONNECTIVITY")
+      (gate
+        (swap 1)
+        (symbol "414375650")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "414375650"
+      (units THOU)
+      (graphic
+        (stroke 6.0)
+        (path (pt -50.0 0.0) (pt -100.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 0.0) (pt 100.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (fill NONE)
+        (circle (pt -60 0) (pt -40 0))
+      )
+      (graphic
+        (stroke 6.0)
+        (fill NONE)
+        (circle (pt 40 0) (pt 60 0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -50.0 10.0) (pt 40.0 40.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -100.0) (pt -100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 100.0) (pt 100.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 100.0) (pt 100.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 100.0 -100.0) (pt -100.0 -100.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "SW_414375650"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -122.05 39.37) (pt -122.05 122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -122.05 122.05) (pt 122.05 122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 122.05 122.05) (pt 122.05 32.68))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 122.05 -32.68) (pt 122.05 -122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 122.05 -122.05) (pt -122.05 -122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -122.05 -122.05) (pt -122.05 -39.37))
+        )
+        (graphic
+          (stroke 7.87)
+          (fill NONE)
+          (circle (pt -166.14 0) (pt -149.61 0))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -122.05 -122.05) (pt -122.05 122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -122.05 122.05) (pt 122.05 122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 122.05 122.05) (pt 122.05 -122.05))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 122.05 -122.05) (pt -122.05 -122.05))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -137.8 -131.89) (pt -137.8 131.89))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -137.8 131.89) (pt 137.8 131.89))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 137.8 131.89) (pt 137.8 -131.89))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 137.8 -131.89) (pt -137.8 -131.89))
+        )
+      )
+      (leg 1 (pt -98.5 0) (padstack 1))
+      (leg 2 (pt 98.5 0) (padstack 2))
+      (padstack 1
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (square 59.37))
+        (pad (layer INNER) (square 59.37))
+        (pad (layer BCOP) (square 59.37))
+        (pad (layer TRES) (square 63.31))
+        (pad (layer BRES) (square 63.31))
+      )
+      (padstack 2
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+    )
+  )
+)

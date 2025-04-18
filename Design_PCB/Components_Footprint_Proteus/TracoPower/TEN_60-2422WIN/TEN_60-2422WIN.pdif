@@ -1,0 +1,207 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "TEN_602422WIN"
+      (family "ANA")
+      (package "CONV_TEN_602422WIN")
+      (attribute "PKG_TYPE" "CONV_TEN_602422WIN")
+      (attribute "PARTREV" "January_27,_2021")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "10.7mm")
+      (attribute "MANUFACTURER" "Traco_Power")
+      (gate
+        (swap 1)
+        (symbol "TEN_602422WIN")
+        (pin "+VIN(VCC)" 1 (type IP))
+        (pin "+VOUT" 4 (type OP))
+        (pin "-VIN(GND)" 2 (type IP))
+        (pin "-VOUT" 6 (type OP))
+        (pin "COMMON" 5 (type PS))
+        (pin "ON/OFF" 3 (type IP))
+      )
+    )
+    (symbol "TEN_602422WIN"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -600 300) (pt 600 300) (pt 600 -300) (pt -600 -300) (pt -600 300) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -800.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 800.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -800.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 800.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 800.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -800.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "CONV_TEN_602422WIN"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -1000.0 500.0) (pt 1000.0 500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 1000.0 500.0) (pt 1000.0 -500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 1000.0 -500.0) (pt -1000.0 -500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -1000.0 -500.0) (pt -1000.0 500.0))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -1027.56 -300) (pt -1019.69 -300))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -1000.0 500.0) (pt 1000.0 500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 1000.0 500.0) (pt 1000.0 -500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 1000.0 -500.0) (pt -1000.0 -500.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -1000.0 -500.0) (pt -1000.0 500.0))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -1027.56 -300) (pt -1019.69 -300))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -1009.84 509.84) (pt -1009.84 -509.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -1009.84 -509.84) (pt 1009.84 -509.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -1009.84 509.84) (pt 1009.84 509.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 1009.84 509.84) (pt 1009.84 -509.84))
+        )
+      )
+      (leg 1 (pt -900 -300) (padstack 1))
+      (leg 2 (pt -900 -100) (padstack 2))
+      (leg 3 (pt -900 300) (padstack 3))
+      (leg 4 (pt 900 -400) (padstack 4))
+      (leg 5 (pt 900 0) (padstack 5))
+      (leg 6 (pt 900 400) (padstack 6))
+      (padstack 1
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (square 76.77))
+        (pad (layer INNER) (square 76.77))
+        (pad (layer BCOP) (square 76.77))
+        (pad (layer TRES) (square 80.71))
+        (pad (layer BRES) (square 80.71))
+      )
+      (padstack 2
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 80.71))
+        (pad (layer BRES) (round 80.71))
+      )
+      (padstack 3
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 80.71))
+        (pad (layer BRES) (round 80.71))
+      )
+      (padstack 4
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 80.71))
+        (pad (layer BRES) (round 80.71))
+      )
+      (padstack 5
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 80.71))
+        (pad (layer BRES) (round 80.71))
+      )
+      (padstack 6
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 80.71))
+        (pad (layer BRES) (round 80.71))
+      )
+      (model TEN_60-2422WIN.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

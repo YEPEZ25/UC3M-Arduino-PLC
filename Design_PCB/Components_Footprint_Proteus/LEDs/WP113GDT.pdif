@@ -1,0 +1,206 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "WP113GDT"
+      (family "DIO")
+      (package "LED_WP113GDT")
+      (attribute "PKG_TYPE" "LED_WP113GDT")
+      (attribute "PARTREV" "V.10B")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "SNAPEDA_PACKAGE_ID" "41690")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "8_mm")
+      (attribute "MANUFACTURER" "Kingbright")
+      (gate
+        (swap 1)
+        (symbol "WP113GDT")
+        (pin "A" A (type PS))
+        (pin "C" C (type PS))
+      )
+    )
+    (symbol "WP113GDT"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 60.0) (pt -100.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 0.0) (pt -100.0 -60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -60.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt -100.0 60.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 60.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt 0.0 -60.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -100.0 0.0) (pt -200.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 35.0 155.0) (pt -35.0 75.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -14.0 159.0) (pt -84.0 79.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 100.0 0.0) (pt 0.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -45.0 145.0)
+          (pt -22.5 125.0)
+          (pt -7.5 165.0)
+          (pt -45.0 145.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt 5.0 142.5)
+          (pt 27.5 122.5)
+          (pt 42.5 165.0)
+          (pt 5.0 142.5)
+          (closed)
+        )
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (package "LED_WP113GDT"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 39.37) (pt -90.31 39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 90.31 39.37) (pt 98.43 39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -90.31 -39.37) (pt -98.43 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 -39.37) (pt 90.31 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 39.37) (pt 98.43 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 -39.37) (pt -98.43 39.37))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -128.94 0) (pt -121.06 0))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 39.37) (pt 98.43 39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 39.37) (pt 98.43 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 -39.37) (pt -98.43 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 -39.37) (pt -98.43 39.37))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -128.94 0) (pt -121.06 0))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -108.27 49.21) (pt -108.27 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -108.27 -49.21) (pt 108.27 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 108.27 -49.21) (pt 108.27 49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 108.27 49.21) (pt -108.27 49.21))
+        )
+      )
+      (leg A (pt 50 0) (padstack 1))
+      (leg C (pt -50 0) (padstack 2))
+      (padstack 1
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (round 55.43))
+        (pad (layer INNER) (round 55.43))
+        (pad (layer BCOP) (round 55.43))
+        (pad (layer TRES) (round 59.37))
+        (pad (layer BRES) (round 59.37))
+      )
+      (padstack 2
+        (hole 35)
+        (plated true)
+        (pad (layer TCOP) (square 55.43))
+        (pad (layer INNER) (square 55.43))
+        (pad (layer BCOP) (square 55.43))
+        (pad (layer TRES) (square 59.37))
+        (pad (layer BRES) (square 59.37))
+      )
+    )
+  )
+)

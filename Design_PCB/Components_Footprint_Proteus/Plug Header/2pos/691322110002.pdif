@@ -1,0 +1,181 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "691322110002"
+      (family "CON")
+      (package "691322110002")
+      (description "2_Position_Terminal_Block_Header,_Male_Pins,_Shrouded_(4_Side)_0.138_(3.50mm)_90°,_Right_Angle_-_Th")
+      (attribute "PKG_TYPE" "691322110002")
+      (attribute "MF" "Würth_Elektronik")
+      (attribute "PACKAGE" "None")
+      (attribute "MOUNT" "THT")
+      (attribute "IR-VDE" "10.5A")
+      (attribute "IR-UL" "10A")
+      (attribute "VALUE" "691322110002")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "WORKING-VOLTAGE-UL" "300V_(AC)")
+      (attribute "PART-NUMBER" "691322110002")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/691322110002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap")
+      (attribute "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/691322110002?ae")
+      (attribute "MP" "691322110002")
+      (attribute "PITCH" "3.5mm")
+      (attribute "PINS" "2")
+      (attribute "WORKING-VOLTAGE-VDE" "300V_(AC)")
+      (attribute "TYPE" "Horizontal")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/691322110002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda")
+      (gate
+        (swap 1)
+        (symbol "2PT")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "2PT"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 -100.0) (pt 50.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 50.0 -100.0) (pt 50.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 50.0 0.0) (pt -150.0 0.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -150.0 0.0) (pt -150.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -50.0) (pt -100.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -50.0) (pt 0.0 -100.0))
+      )
+      (graphic
+        (stroke 25.0)
+        (fill NONE)
+        (circle (pt -110 -50) (pt -90 -50))
+      )
+      (graphic
+        (stroke 25.0)
+        (fill NONE)
+        (circle (pt -10 -50) (pt 10 -50))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt -100.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 0.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R90_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 100.0))
+      )
+    )
+    (package "691322110002"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (path (pt 90.55 51.18) (pt 169.29 51.18))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 169.29 51.18) (pt 169.29 -318.9))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt 169.29 -318.9) (pt -169.29 -318.9))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -169.29 -318.9) (pt -169.29 51.18))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -169.29 51.18) (pt -90.55 51.18))
+        )
+        (graphic
+          (stroke 7.87)
+          (path (pt -47.24 51.18) (pt 47.24 51.18))
+        )
+        (graphic
+          (stroke 15.75)
+          (circle (pt -125.98 -62.99) (pt -118.11 -62.99))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 3.94)
+          (path (pt 165.35 47.24) (pt -165.35 47.24))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt -165.35 47.24) (pt -165.35 -314.96))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt -165.35 -314.96) (pt 165.35 -314.96))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt 165.35 -314.96) (pt 165.35 47.24))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1)
+          (fill SOLID)
+          (path
+            (pt -177.17 59.06)
+            (pt 177.17 59.06)
+            (pt 177.17 -326.77)
+            (pt -177.17 -326.77)
+            (pt -177.17 59.06)
+            (closed)
+          )
+        )
+      )
+      (leg 1 (pt -68.9 0) (padstack 1))
+      (leg 2 (pt 68.9 0) (padstack 2))
+      (padstack 1
+        (hole 55)
+        (plated true)
+        (pad (layer TCOP) (round 82.68))
+        (pad (layer INNER) (round 82.68))
+        (pad (layer BCOP) (round 82.68))
+        (pad (layer TRES) (round 86.61))
+        (pad (layer BRES) (round 86.61))
+      )
+      (padstack 2
+        (hole 55)
+        (plated true)
+        (pad (layer TCOP) (round 82.68))
+        (pad (layer INNER) (round 82.68))
+        (pad (layer BCOP) (round 82.68))
+        (pad (layer TRES) (round 86.61))
+        (pad (layer BRES) (round 86.61))
+      )
+      (model 691322110002.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

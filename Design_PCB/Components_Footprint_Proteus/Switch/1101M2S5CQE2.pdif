@@ -1,0 +1,168 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "1101M2S5CQE2"
+      (family "SWI")
+      (package "1101M2S5CQE2")
+      (description "C_&_K_COMPONENTS_-_1101M2S5CQE2_-_SLIDE_SWITCH,_SPDT,_6A,_120V,_THD")
+      (attribute "PKG_TYPE" "1101M2S5CQE2")
+      (attribute "MANUFACTURER_NAME" "C_&_K_COMPONENTS")
+      (attribute "MF" "C&K_Components")
+      (attribute "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/1101M2S5CQE2?qs=lwH5WijZ8egqeByMTueCpw%3D%3D")
+      (attribute "MOUSER_PART_NUMBER" "611-1101M2S5CQE2")
+      (attribute "PRICE" "None")
+      (attribute "PACKAGE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/1101M2S5CQE2/C%2526K/view-part/?ref=eda")
+      (attribute "HEIGHT" "11.43mm")
+      (attribute "MP" "1101M2S5CQE2")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/1101M2S5CQE2/C%2526K/view-part/?ref=snap")
+      (attribute "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/1101m2s5cqe2/ck?region=nac")
+      (attribute "ARROW_PART_NUMBER" "1101M2S5CQE2")
+      (attribute "DESCRIPTION" "Slide_Switch_SPDT_Through_Hole")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER_PART_NUMBER" "1101M2S5CQE2")
+      (gate
+        (swap 1)
+        (symbol "1101M2S5CQE2")
+        (pin "COM" 2 (type IO))
+        (pin "NC" 1 (type NC))
+        (pin "NO" 3 (type IO))
+      )
+    )
+    (symbol "1101M2S5CQE2"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 200.0 100.0) (pt 700.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 700.0 -300.0) (pt 700.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 700.0 -300.0) (pt 200.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 200.0 100.0) (pt 200.0 -300.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt 0.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt 0.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt 0.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "1101M2S5CQE2"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 6.46)
+          (path (pt -7.52 -118.66) (pt -7.52 -118.66))
+        )
+        (graphic
+          (stroke 6.46)
+          (path
+            (arc (pt -7.52 -118.66) (pt -7.52 -121.89) (pt -1.06 -115.43) (start 180) (sweep 180))
+            (pt -1.06 -118.66)
+          )
+        )
+        (graphic
+          (stroke 6.46)
+          (path (pt -1.06 -118.66) (pt -1.06 -118.66))
+        )
+        (graphic
+          (stroke 6.46)
+          (path
+            (arc (pt -1.06 -118.66) (pt -7.52 -121.89) (pt -1.06 -115.43) (start 180) (sweep 0))
+            (pt -7.52 -118.66)
+          )
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 10.0)
+          (path (pt -129.92 435.04) (pt 129.92 435.04))
+        )
+        (graphic
+          (stroke 10.0)
+          (path (pt 129.92 435.04) (pt 129.92 -64.96))
+        )
+        (graphic
+          (stroke 10.0)
+          (path (pt 129.92 -64.96) (pt -129.92 -64.96))
+        )
+        (graphic
+          (stroke 10.0)
+          (path (pt -129.92 -64.96) (pt -129.92 435.04))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt -169.29 474.41) (pt 169.29 474.41))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt 169.29 474.41) (pt 169.29 -161.26))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt 169.29 -161.26) (pt -169.29 -161.26))
+        )
+        (graphic
+          (stroke 3.94)
+          (path (pt -169.29 -161.26) (pt -169.29 474.41))
+        )
+      )
+      (leg 1 (pt 0 0) (padstack 1))
+      (leg 2 (pt 0 185.04) (padstack 2))
+      (leg 3 (pt 0 370.08) (padstack 3))
+      (padstack 1
+        (hole 72)
+        (plated true)
+        (pad (layer TCOP) (round 97.64))
+        (pad (layer INNER) (round 97.64))
+        (pad (layer BCOP) (round 97.64))
+        (pad (layer TRES) (round 101.57))
+        (pad (layer BRES) (round 101.57))
+      )
+      (padstack 2
+        (hole 72)
+        (plated true)
+        (pad (layer TCOP) (round 97.64))
+        (pad (layer INNER) (round 97.64))
+        (pad (layer BCOP) (round 97.64))
+        (pad (layer TRES) (round 101.57))
+        (pad (layer BRES) (round 101.57))
+      )
+      (padstack 3
+        (hole 72)
+        (plated true)
+        (pad (layer TCOP) (round 97.64))
+        (pad (layer INNER) (round 97.64))
+        (pad (layer BCOP) (round 97.64))
+        (pad (layer TRES) (round 101.57))
+        (pad (layer BRES) (round 101.57))
+      )
+    )
+  )
+)
