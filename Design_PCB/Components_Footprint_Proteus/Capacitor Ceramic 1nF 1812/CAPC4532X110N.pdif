@@ -1,0 +1,78 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "CAPC4532X110N"
+      (family "ANA")
+      (package "CAPC4532X110N")
+      (attribute "PKG_TYPE" "CAPC4532X110N")
+    )
+    (package "CAPC4532X110N"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -22.83 62.99) (pt 22.83 62.99))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -22.83 -62.99) (pt 22.83 -62.99))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt 88.58 -62.99) (pt -88.58 -62.99))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 88.58 62.99) (pt -88.58 62.99))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 88.58 -62.99) (pt 88.58 62.99))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 -62.99) (pt -88.58 62.99))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -118.31 -78.94) (pt 118.31 -78.94))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -118.31 78.94) (pt 118.31 78.94))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -118.31 -78.94) (pt -118.31 78.94))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 118.31 -78.94) (pt 118.31 78.94))
+        )
+      )
+      (leg 1 (pt -71.93 0) (padstack 1))
+      (leg 2 (pt 71.93 0) (padstack 2))
+      (padstack 1
+        (pad (layer TCOP) (rectf 73.23 138.19 0 0.0 90.0))
+        (pad (layer TRES) (rectf 73.23 138.19 0 0.0 90.0))
+        (pad (layer TPST) (rectf 73.23 138.19 0 0.0 90.0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 73.23 138.19 0 0.0 90.0))
+        (pad (layer TRES) (rectf 73.23 138.19 0 0.0 90.0))
+        (pad (layer TPST) (rectf 73.23 138.19 0 0.0 90.0))
+      )
+      (model CAPC4532X110N.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
