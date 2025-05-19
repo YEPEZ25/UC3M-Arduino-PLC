@@ -1,0 +1,229 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "SLW1166415ASD"
+      (family "SWI")
+      (package "SW_SLW1166415ASD")
+      (description "11.6_x_6_x_4.1_mm,_5_mm_Raised_Slide_Actuator,_Through_Hole,_Slide_Switch")
+      (attribute "PKG_TYPE" "SW_SLW1166415ASD")
+      (attribute "MF" "Same_Sky")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "11.00mm")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/SLW-116641-5A-S-D/Same+Sky/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "1.01")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/SLW-116641-5A-S-D/Same+Sky/view-part/?ref=snap")
+      (attribute "MP" "SLW-116641-5A-S-D")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Same_Sky")
+      (gate
+        (swap 1)
+        (symbol "SLW1166415ASD")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+      )
+    )
+    (symbol "SLW1166415ASD"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 200.0 200.0) (pt -200.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -200.0 200.0) (pt -200.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -200.0 -200.0) (pt 200.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 200.0 -200.0) (pt 200.0 200.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -200.0 100.0) (pt -50.0 100.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -50.0 125.0)
+          (pt -50.0 75.0)
+          (pt 0.0 100.0)
+          (pt -50.0 125.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -200.0 -100.0) (pt -50.0 -100.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -50.0 -75.0)
+          (pt -50.0 -125.0)
+          (pt 0.0 -100.0)
+          (pt -50.0 -75.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -200.0 0.0) (pt -50.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -50.0 25.0)
+          (pt -50.0 -25.0)
+          (pt 0.0 0.0)
+          (pt -50.0 25.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt 0.0 75.0)
+          (pt 0.0 125.0)
+          (pt 50.0 125.0)
+          (pt 50.0 -25.0)
+          (pt 0.0 -25.0)
+          (pt 0.0 25.0)
+          (pt 25.0 25.0)
+          (pt 25.0 75.0)
+          (pt 0.0 75.0)
+          (closed)
+        )
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -400.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "SW_SLW1166415ASD"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt 228.35 -80.71) (pt -228.35 -80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -228.35 -80.71) (pt -228.35 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -228.35 80.71) (pt 228.35 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 228.35 80.71) (pt 228.35 -80.71))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -251.97 0) (pt -244.09 0))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -228.35 -80.71) (pt -228.35 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -228.35 80.71) (pt 228.35 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 228.35 80.71) (pt 228.35 -80.71))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -251.97 0) (pt -244.09 0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 228.35 -80.71) (pt -228.35 -80.71))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt 238.19 -90.55) (pt -238.19 -90.55))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -238.19 -90.55) (pt -238.19 90.55))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -238.19 90.55) (pt 238.19 90.55))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 238.19 90.55) (pt 238.19 -90.55))
+        )
+      )
+      (leg 1 (pt -98.43 0) (padstack 1))
+      (leg 2 (pt 0 0) (padstack 2))
+      (leg 3 (pt 98.43 0) (padstack 3))
+      (padstack 1
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (square 51.5))
+        (pad (layer INNER) (square 51.5))
+        (pad (layer BCOP) (square 51.5))
+        (pad (layer TRES) (square 55.43))
+        (pad (layer BRES) (square 55.43))
+      )
+      (padstack 2
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 51.5))
+        (pad (layer INNER) (round 51.5))
+        (pad (layer BCOP) (round 51.5))
+        (pad (layer TRES) (round 55.43))
+        (pad (layer BRES) (round 55.43))
+      )
+      (padstack 3
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 51.5))
+        (pad (layer INNER) (round 51.5))
+        (pad (layer BCOP) (round 51.5))
+        (pad (layer TRES) (round 55.43))
+        (pad (layer BRES) (round 55.43))
+      )
+    )
+  )
+)
